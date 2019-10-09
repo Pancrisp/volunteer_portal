@@ -1,0 +1,37 @@
+{
+  "locale": {
+    "translations": {
+      "dashboard.personal": "漢字",
+      "dashboard.layouttab.calendar": "漢字",
+      "dashboard.layouttab.dashboard": "漢字",
+      "dashboard.layouttab.myevents": "漢字",
+      "dashboard.layoutdatetab.today": "漢字",
+      "dashboard.layoutdatetab.previous": "<",
+      "dashboard.layoutdatetab.after": ">",
+      "dashboard.layouteventstab.show": "漢字:",
+      "dashboard.layouteventstab.show.all": "漢字",
+      "dashboard.layouteventstab.show.myevents": "漢字 漢字",
+      "dashboard.layouteventstab.event": "漢字:",
+      "dashboard.layouteventstab.event.all": "漢字",
+      "dashboard.layouteventstab.event.open": "漢字",
+      "dashboard.layouteventstab.event.full": "漢字",
+      "dashboard.layouteventstab.office": "漢字:",
+      "dashboard.layouteventstab.office.all": "漢字",
+      "admin.tab.office": "漢字:",
+      "admin.tab.office.all": "漢字",
+      "admin.tab.dashboard": "漢字",
+      "admin.tab.events": "漢字",
+      "admin.tab.eventtypes": "漢字 漢字",
+      "admin.tab.offices": "漢字",
+      "admin.tab.organizations": "漢字",
+      "admin.tab.individualevents": "漢字 漢字",
+      "admin.tab.users": "漢字",
+      "admin.tab.reporting": "漢字",
+      "calendar.bigcalendar.month": "漢字",
+      "calendar.bigcalendar.week": "漢字",
+      "calendar.bigcalendar.work_week": "漢字 漢字",
+      "calendar.bigcalendar.day": "漢字",
+      "calendar.bigcalendar.agenda": "漢字"
+    }
+  }
+}
