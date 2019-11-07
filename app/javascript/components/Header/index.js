@@ -84,8 +84,8 @@ const Header = ({ currentUser, offices, togglePopover, popover, handleOfficeSele
               />
             </Link>
           </div>
-          <LanguageSelect />
           <AdminActions currentUser={currentUser} />
+          <LanguageSelect />
           <div>
             <button className={s.btn} onClick={togglePopover}>
               <img className={s.img} src={currentUser.photo} />
