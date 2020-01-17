@@ -73,7 +73,7 @@
     "@zendeskgarden/react-tags": "^7.1.4",
     "@zendeskgarden/react-theming": "^7.1.4",
     "@zendeskgarden/svg-icons": "^6.9.0",
-    "actioncable": "^5.1.4",
+    "actioncable": "^5.2.4",
     "apollo-client": "^2.0.4",
     "apollo-client-preset": "^1.0.5",
     "autoprefixer": "^7.2.4",
