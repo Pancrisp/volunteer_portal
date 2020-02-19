@@ -1621,17 +1621,22 @@
     "@zendeskgarden/container-focusjail" "^1.2.3"
     "@zendeskgarden/container-utilities" "^0.3.0"
 
-"@zendeskgarden/container-selection@^1.1.5", "@zendeskgarden/container-selection@^1.2.6":
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-selection/-/container-selection-1.2.6.tgz#de4ccada40db20401bbfc2597156b3433ea1b584"
-  integrity sha512-mStRq33Iwl+WzdzDtXCGxn7+yl8f+6CBdxDOmYde9flp48AbrtKzTXYO+B18uVUU5r+FPQR4viPTM1+dXsCu5w==
+"@zendeskgarden/container-selection@^1.2.6", "@zendeskgarden/container-selection@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-selection/-/container-selection-1.3.1.tgz#352325712f615d084fd1762cb75051ff8d8e8e21"
+  integrity sha512-haJUyehKOAVapTfZKiMosuChxKp18URO8XH7Jr+Nwsbxujrhe2G7bX4i3rwGRaWk6BTpR5v+mcFnOY8IrrIJRQ==
   dependencies:
-    "@zendeskgarden/container-utilities" "^0.3.0"
+    "@zendeskgarden/container-utilities" "^0.5.1"
 
 "@zendeskgarden/container-utilities@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@zendeskgarden/container-utilities/-/container-utilities-0.3.0.tgz#9af748ef4b29f8a57f082852d039b9aaa98cf0d3"
   integrity sha512-oZLNiJoHLznZBIASScfxanxylvczTm06HRWBqcdiiGDMSJYW0HySSlEUQFlaQqsvTwzrm02hWKGnr5cdWWtE0w==
+
+"@zendeskgarden/container-utilities@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-utilities/-/container-utilities-0.5.1.tgz#738dc99dbe4a98809fdc015e5a8e000997725876"
+  integrity sha512-+nswWqFEiWHkuQeYSdftJ5c3Xy48IHPKb23qktIeEl+ZibMXzWVytdg91zOerI/HGJizNJ0gKmq+0A/4//eiQQ==
 
 "@zendeskgarden/react-buttons@^7.1.4":
   version "7.1.4"
@@ -1643,15 +1648,15 @@
     "@zendeskgarden/react-utilities" "^7.1.4"
     classnames "^2.2.5"
 
-"@zendeskgarden/react-dropdowns@^7.1.4":
-  version "7.1.4"
-  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-dropdowns/-/react-dropdowns-7.1.4.tgz#5b56a35d1c1b9c02907d7cdd300ddd51be77c7dd"
-  integrity sha512-X6EwLO/1DckQeKVtfIIAOwkLCphmfLaLOwYEW72a5HPbRvW9adWtxbEKhAAhLGnQ1xy7aoyL2WFmonST0fJY4w==
+"@zendeskgarden/react-dropdowns@^7.1.10":
+  version "7.1.10"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-dropdowns/-/react-dropdowns-7.1.10.tgz#c0769c0b5c598628cf9017eb2418686c5c677742"
+  integrity sha512-O8mGi7WoOMqI3rDZYS28yjO/OfbhVbHdarTZV2VK4EV8u3VTywXowRqjeUVdLobuLkQmqDDECFUvZUC7DM6IaQ==
   dependencies:
-    "@zendeskgarden/container-selection" "^1.1.5"
-    "@zendeskgarden/container-utilities" "^0.3.0"
+    "@zendeskgarden/container-selection" "^1.3.1"
+    "@zendeskgarden/container-utilities" "^0.5.1"
     classnames "^2.2.5"
-    downshift "^3.2.7"
+    downshift "^4.0.0"
     react-popper "^1.3.4"
 
 "@zendeskgarden/react-forms@^7.1.4":
@@ -3548,10 +3553,10 @@ domutils@^1.5.1, domutils@^1.7.0:
     dom-serializer "0"
     domelementtype "1"
 
-downshift@^3.2.7:
-  version "3.4.8"
-  resolved "https://registry.yarnpkg.com/downshift/-/downshift-3.4.8.tgz#06b7ad9e9c423a58e8a9049b2a00a5d19c7ef954"
-  integrity sha512-dZL3iNL/LbpHNzUQAaVq/eTD1ocnGKKjbAl/848Q0KEp6t81LJbS37w3f93oD6gqqAnjdgM7Use36qZSipHXBw==
+downshift@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/downshift/-/downshift-4.1.0.tgz#a16c67ea965fd7c310c5f7872276e109a4de1704"
+  integrity sha512-GODZOZC65a8n8YD/S/87hR2t5PJfqZ7+lwEBJsNi/AJnhImfle+CFD/ZPde4l+nB8QNHfn0GbE1W9djEFOj1yQ==
   dependencies:
     "@babel/runtime" "^7.4.5"
     compute-scroll-into-view "^1.0.9"
