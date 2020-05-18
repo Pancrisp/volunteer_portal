@@ -91,7 +91,7 @@
     "lodash.debounce": "^4.0.8",
     "material-ui": "0.20.1",
     "moment": "^2.20.1",
-    "moment-timezone": "^0.5.14",
+    "moment-timezone": "^0.5.31",
     "normalizr": "^2.2.0",
     "path-complete-extname": "^0.1.0",
     "postcss-loader": "^2.0.10",
