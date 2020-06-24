@@ -76,7 +76,7 @@
     "actioncable": "^5.1.4",
     "apollo-client": "^2.0.4",
     "apollo-client-preset": "^1.0.5",
-    "autoprefixer": "^7.2.4",
+    "autoprefixer": "^9.8.4",
     "deepmerge": "^1.5.2",
     "es6-error": "^4.1.1",
     "glob": "^7.1.2",
