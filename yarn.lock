@@ -7967,12 +7967,10 @@ react-svg-loader@^3.0.3:
     loader-utils "^1.2.3"
     react-svg-core "^3.0.3"
 
-react-table@^6.7.6:
-  version "6.10.0"
-  resolved "https://registry.yarnpkg.com/react-table/-/react-table-6.10.0.tgz#20444b19d8ca3c1a08e7544e5c3a93e4ba56690e"
-  integrity sha512-s/mQLI1+mNvlae45MfAZyZ04YIT3jUzWJqx34s0tfwpDdgJkpeK6vyzwMUkKFCpGODBxpjBOekYZzcEmk+2FiQ==
-  dependencies:
-    classnames "^2.2.5"
+react-table@^7.3.2:
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/react-table/-/react-table-7.3.2.tgz#def43b9777e0ef5839608104a557c3f1c365b2ff"
+  integrity sha512-n8ZvC8tzuDa3qK9PFlcXmo58JCRfxg/3LlvG8YJywvsQKiCnTfK6lDSp8a3WsAOBcZvBtGgyeoke7pBfAdB8jA==
 
 react-test-renderer@^16.0.0-0, react-test-renderer@^16.12.0:
   version "16.12.0"
