@@ -963,17 +963,17 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.8.4":
+  version "7.11.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
+  integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.4.2":
   version "7.6.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.3.tgz#935122c74c73d2240cafd32ddb5fc2a6cd35cf1f"
   integrity sha512-kq6anf9JGjW8Nt5rYfEuGRaEAaH1mkv3Bbu6rYvLOpPh/RusSJXuKPEAoZ7L7gybZkchE8+NV5g9vKF4AGAtsA==
-  dependencies:
-    regenerator-runtime "^0.13.2"
-
-"@babel/runtime@^7.4.5":
-  version "7.7.7"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.7.7.tgz#194769ca8d6d7790ec23605af9ee3e42a0aa79cf"
-  integrity sha512-uCnC2JEVAu8AKB5do1WRIsvrdJ0flYx/A/9f/6chdacnEZ7LmavjdsDXr5ksYBegxtuTPR5Va9/+13QF/kFkCA==
   dependencies:
     regenerator-runtime "^0.13.2"
 
@@ -1621,17 +1621,25 @@
     "@zendeskgarden/container-focusjail" "^1.2.3"
     "@zendeskgarden/container-utilities" "^0.3.0"
 
-"@zendeskgarden/container-selection@^1.1.5", "@zendeskgarden/container-selection@^1.2.6":
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-selection/-/container-selection-1.2.6.tgz#de4ccada40db20401bbfc2597156b3433ea1b584"
-  integrity sha512-mStRq33Iwl+WzdzDtXCGxn7+yl8f+6CBdxDOmYde9flp48AbrtKzTXYO+B18uVUU5r+FPQR4viPTM1+dXsCu5w==
+"@zendeskgarden/container-selection@^1.2.6", "@zendeskgarden/container-selection@^1.3.1":
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-selection/-/container-selection-1.3.6.tgz#9962eefdb8debf98eb01741d4aaf8e10b80b1efc"
+  integrity sha512-/rTiKejNI44VviyYjLWaPZSljEJ5yp9goRhcxZe1blYE1LklZCA6ftu0UiXIKXtu0nvv5syqleN6o8LfZkwOnw==
   dependencies:
-    "@zendeskgarden/container-utilities" "^0.3.0"
+    "@babel/runtime" "^7.8.4"
+    "@zendeskgarden/container-utilities" "^0.5.4"
 
 "@zendeskgarden/container-utilities@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@zendeskgarden/container-utilities/-/container-utilities-0.3.0.tgz#9af748ef4b29f8a57f082852d039b9aaa98cf0d3"
   integrity sha512-oZLNiJoHLznZBIASScfxanxylvczTm06HRWBqcdiiGDMSJYW0HySSlEUQFlaQqsvTwzrm02hWKGnr5cdWWtE0w==
+
+"@zendeskgarden/container-utilities@^0.5.1", "@zendeskgarden/container-utilities@^0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/container-utilities/-/container-utilities-0.5.4.tgz#8550404cafd0aab5ed80f3da0a51d424e8e3facb"
+  integrity sha512-Iz6YZ6va3JIShzKXKjK4TCf168GSX+/XeeBr6o9MTJ4K84lO0F0ZX2GIFuZmacfkBjCXfyNxj4aua/5/1ZXyPg==
+  dependencies:
+    "@babel/runtime" "^7.8.4"
 
 "@zendeskgarden/react-buttons@^7.1.4":
   version "7.1.4"
@@ -1643,15 +1651,15 @@
     "@zendeskgarden/react-utilities" "^7.1.4"
     classnames "^2.2.5"
 
-"@zendeskgarden/react-dropdowns@^7.1.4":
-  version "7.1.4"
-  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-dropdowns/-/react-dropdowns-7.1.4.tgz#5b56a35d1c1b9c02907d7cdd300ddd51be77c7dd"
-  integrity sha512-X6EwLO/1DckQeKVtfIIAOwkLCphmfLaLOwYEW72a5HPbRvW9adWtxbEKhAAhLGnQ1xy7aoyL2WFmonST0fJY4w==
+"@zendeskgarden/react-dropdowns@^7.3.3":
+  version "7.3.3"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/react-dropdowns/-/react-dropdowns-7.3.3.tgz#b847ec76ffa68cf39e764b728aa0b23d7c04290c"
+  integrity sha512-JJt+A1jB6vfLU1/Z9rol9Td1E35RdmhfXHCERTeSFxK0VFg/kNEQEky/CYdNKaz10LN4qI0xxRwjNARuwr2mjg==
   dependencies:
-    "@zendeskgarden/container-selection" "^1.1.5"
-    "@zendeskgarden/container-utilities" "^0.3.0"
+    "@zendeskgarden/container-selection" "^1.3.1"
+    "@zendeskgarden/container-utilities" "^0.5.1"
     classnames "^2.2.5"
-    downshift "^3.2.7"
+    downshift "^5.0.0"
     react-popper "^1.3.4"
 
 "@zendeskgarden/react-forms@^7.1.4":
@@ -2866,10 +2874,10 @@ compression@^1.7.4:
     safe-buffer "5.1.2"
     vary "~1.1.2"
 
-compute-scroll-into-view@^1.0.9:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/compute-scroll-into-view/-/compute-scroll-into-view-1.0.11.tgz#7ff0a57f9aeda6314132d8994cce7aeca794fecf"
-  integrity sha512-uUnglJowSe0IPmWOdDtrlHXof5CTIJitfJEyITHBW6zDVOGu9Pjk5puaLM73SLcwak0L4hEjO7Td88/a6P5i7A==
+compute-scroll-into-view@^1.0.14:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/compute-scroll-into-view/-/compute-scroll-into-view-1.0.16.tgz#5b7bf4f7127ea2c19b750353d7ce6776a90ee088"
+  integrity sha512-a85LHKY81oQnikatZYA90pufpZ6sQx++BoCxOEMsjpZx+ZnaKGQnCyCehTRr/1p9GBIAHTjcU9k71kSYWloLiQ==
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -3548,15 +3556,15 @@ domutils@^1.5.1, domutils@^1.7.0:
     dom-serializer "0"
     domelementtype "1"
 
-downshift@^3.2.7:
-  version "3.4.8"
-  resolved "https://registry.yarnpkg.com/downshift/-/downshift-3.4.8.tgz#06b7ad9e9c423a58e8a9049b2a00a5d19c7ef954"
-  integrity sha512-dZL3iNL/LbpHNzUQAaVq/eTD1ocnGKKjbAl/848Q0KEp6t81LJbS37w3f93oD6gqqAnjdgM7Use36qZSipHXBw==
+downshift@^5.0.0:
+  version "5.4.7"
+  resolved "https://registry.yarnpkg.com/downshift/-/downshift-5.4.7.tgz#2ab7b0512cad33011ee6f29630f9a7bb74dff2b5"
+  integrity sha512-xaH0RNqwJ5pAsyk9qBmR9XJWmg1OOWMfrhzYv0NH2NjJxn77S3zBcfClw341UfhGyKg5v+qVqg/CQzvAgBNCXQ==
   dependencies:
-    "@babel/runtime" "^7.4.5"
-    compute-scroll-into-view "^1.0.9"
+    "@babel/runtime" "^7.10.2"
+    compute-scroll-into-view "^1.0.14"
     prop-types "^15.7.2"
-    react-is "^16.9.0"
+    react-is "^16.13.1"
 
 duplexify@^3.4.2, duplexify@^3.6.0:
   version "3.7.1"
@@ -7874,6 +7882,11 @@ react-is@^16.10.2, react-is@^16.6.0, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
+react-is@^16.13.1:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
 react-is@^16.3.2, react-is@^16.7.0, react-is@^16.8.4, react-is@^16.8.6, react-is@^16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.9.0.tgz#21ca9561399aad0ff1a7701c01683e8ca981edcb"
@@ -8138,6 +8151,11 @@ regenerator-runtime@^0.13.2:
   version "0.13.3"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.3.tgz#7cf6a77d8f5c6f60eb73c5fc1955b2ceb01e6bf5"
   integrity sha512-naKIZz2GQ8JWh///G7L3X6LaQUAMp2lvb1rvwwsURe/VXwD6VMfr+/1NuNw3ag8v2kY1aQ/go5SNn79O9JU7yw==
+
+regenerator-runtime@^0.13.4:
+  version "0.13.7"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
+  integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
 
 regenerator-transform@^0.14.0:
   version "0.14.1"
